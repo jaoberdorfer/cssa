@@ -9,6 +9,13 @@ body {
   box-sizing: border-box;
   text-align: center;
   font-family: 'Lato', sans-serif;
+
+  /* IDK IF THIS WILL WORK 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+   END TRIAL STUFF */
+
 }
 
 html {
@@ -271,17 +278,24 @@ p {
 }
 
 .wrap {
-  padding-bottom: 100px;
+  padding-bottom: 4%;
 }
 
 .bottom-container {
-  position: absolute;
+  /*position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100%; */
   /* height: 100px; COULD JUST ADJUST FOR MOBILE; COVERS DIV ABOVE WHEN USE AUTO*/
-  height: auto;
+ /* height: auto;
   background-color: #171756;
-  padding-top: 40px;
+  padding-top: 40px; */
+
+  /* NEW STUFF TRIAL */
+  background-color: #171756;
+  height: auto;
+  padding-top: 4%;
+  padding-bottom: 2%;
+
 
 }
 
@@ -333,6 +347,7 @@ p {
 
 .ocfterms {
   font-size: 0.75rem;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -353,8 +368,8 @@ p {
 }
 
 .btn:hover {
-   border: solid #FFA5A5 1px;
-   background: #F3B9B9;
+   border: solid #ACACE6 1px;
+   background: #DDDDFA;
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
@@ -893,6 +908,14 @@ width: 50%;
   width: 40%;
 }
 
+.honors-thesis-tipslist {
+  color: #6C6C83;
+  line-height: 2em;
+  text-align: left;
+
+
+}
+
 .honors-row2 {
   padding-top: 4%;
   padding-bottom: 8%;
@@ -924,8 +947,8 @@ width: 50%;
 }
 
 .conference-banner {
-  height: 100%;
-  width: 80%;
+  height: 60vh;
+  width: 60%;
 }
 
 
