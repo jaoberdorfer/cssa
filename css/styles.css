@@ -178,12 +178,26 @@ nav {
     padding-left: 0px;
   }
 
+  #particles-js {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
   .particles-title {
     font-size: 1.6em;
   }
 
   .particles-subtitle {
     font-size: 1em;
+  }
+
+  .middle-links-txt {
+    font-size: 0.86em;
+  }
+
+  img.middle-links-img {
+    height: 120px;
+    width: 130px;
   }
 
   .learn-more .btn {
