@@ -78,7 +78,8 @@ nav {
 
 .nav-links {
   /* USED THIS TO MAKE LINKS MORE IN FROM RIGHT */
-  margin-right: 20%;
+  margin-right: 12%;
+  padding-right: 4%;
   display: flex;
   justify-content: space-around;
   width: 30%;
@@ -110,9 +111,11 @@ nav {
 
 } 
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1180px){
   .nav-links {
   width: 50%;
+  margin-right: 6%;
+  padding-right: 6%;
   }
 
   .nav-links a {
@@ -615,6 +618,10 @@ p {
 
 /* ABOUT.HTML */
 
+#about-wrap {
+  padding-bottom: 0px;
+}
+
 .page-top {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -626,6 +633,7 @@ p {
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
+  padding-bottom: 2%;
 }
 
 .about-cssa1 {
@@ -649,6 +657,12 @@ p {
   width: 84%;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.middle-container-about {
+  background-color: #E3F2FF;
+  padding-top: 2%;
+  padding-bottom: 4%;
 }
 
 .what-is-cogsci {
@@ -1099,6 +1113,10 @@ width: 50%;
 .ppl-img {
   height: 140px;
   width: 140px;
+}
+
+#people-wrap {
+  padding-bottom: 0px;
 }
 
 
