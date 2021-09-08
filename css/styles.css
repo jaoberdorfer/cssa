@@ -57,8 +57,8 @@ nav {
 }
 */
 .logo-img {
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: auto;
   margin-left: 10%;
   margin-right: 10%;
   display: block;
