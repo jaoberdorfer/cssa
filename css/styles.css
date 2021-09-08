@@ -125,6 +125,16 @@ nav {
     padding-left: 20%;
   }
 
+  .learn-more .btn {
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 6px 12px;
+   border: solid #414194 1px;
+}
+
   
 
 }
@@ -164,6 +174,24 @@ nav {
     height: 40%;
     padding-left: 0px;
   }
+
+  .particles-title {
+    font-size: 1.6em;
+  }
+
+  .particles-subtitle {
+    font-size: 1em;
+  }
+
+  .learn-more .btn {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   font-size: 12px;
+   font-weight: 100;
+   padding: 5px 10px;
+   border: solid #414194 1px;
+}
 
 }
 
@@ -485,12 +513,12 @@ p {
   padding-right: 10%; */
   height: 100%;
   width: 30%;
-  padding-right: 8%;
+  padding-top: 4%;
 }
 
 .contactlogo-img {
-  width: 300px;
-  height: 300px;
+  width: 80%;
+  height: 80%;
 }
 
 .contact-head {
@@ -505,7 +533,7 @@ p {
   margin: 0;
 }
 
-.comp-brain-img {
+.logo-brain-img {
   height: 100px;
   width: 100px;
 }
