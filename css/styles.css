@@ -107,12 +107,25 @@ nav {
   background-color: #ACACE6;
   margin: 5px;
   transition: all 0.3s ease;
+
 } 
 
 @media screen and (max-width: 1100px){
   .nav-links {
   width: 50%;
   }
+
+  .nav-links a {
+    font-size: 12px;
+  }
+
+  .logo-img {
+    height: auto;
+    width: 140px;
+    padding-left: 20%;
+  }
+
+  
 
 }
 
@@ -143,11 +156,13 @@ nav {
   }
   .burger {
     display: block;
+    padding-right: 20px;
   }
 
   .logo-img {
     width: 40%;
     height: 40%;
+    padding-left: 0px;
   }
 
 }
