@@ -178,6 +178,16 @@ nav {
     padding-left: 0px;
   }
 
+  h2 {
+    font-size: 1.8em!important;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  /* INDEX STUFF */
+
   #particles-js {
   padding-top: 10%;
   padding-bottom: 10%;
@@ -214,15 +224,21 @@ nav {
   font-size: 3.8em;
 }
 
+/* RESOURCE STUFF */
+
 .resource-nav .resource-links a{
   letter-spacing: 3px;
   font-size: 12px;
 }
 
+/* CONFERENCE STUFF */
+
 .placeholder .conference-banner {
-  height: 40vh;
+  height: 32vh;
   width: 80%;
 }
+
+/* FOOTER STUFF */
 
 .footer-link {
   font-size: 0.92em;
@@ -247,6 +263,8 @@ img.ocf-tag {
 
 }
 
+/* PEOPLE STUFF */
+
 .people-title {
   font-size: 0.8em;
 }
@@ -256,11 +274,143 @@ img.ocf-tag {
   width: 84px;
 }
 
+/* INVOLVEMENT STUFF */
+
+.get-involved h3 {
+  font-size: 1em;
+}
+
+/* EVENT STUFF */
+
+.resource-links {
+  /*margin-right: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+  right: 0px; */
+  /*height: 92vh;*/
+  height: 50vh;
+  top: 8vh;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  /*width: 35%; 
+  transform: translateX(0%); */
+
+}
+
+.resource-links a {
+  font-size: 1em!important;
+}
+
+/* this counts as events box resize */
+.google-calendar {
+  height: 100%;
+  width: 70%;
+}
+
+iframe.google-calendar-actual {
+  height: 360px;
+  width: 380px;
+}
 
 
+
+/* INDEX BOX RESIZE */
+
+div.contact-us {
+  height: 100%;
+  width: 100%;
+}
+div.contact-img {
+  height: 260px;
+  width: 260px;
+}
+
+div.index-links {
+  height: 100%;
+  width: 100%;
+}
+
+/* ABOUT BOX RESIZE */
+
+div.about-cssa1 {
+  height: 100%;
+  width: 90%;
+  margin-bottom: 4%;
+}
+div.about-cssa2 {
+  height: 100%;
+  width: 90%;
+  margin-bottom: 2%;
+}
+
+/* INVOLVEMENT BOX RESIZE */
+
+div.general-meetings {
+  height: 100%;
+  width: 80%;
+}
+div.internal-meetings {
+  height: 100%;
+  width: 80%;
+}
+
+/* EVENTS BOX RESIZE */
+
+div.events-img {
+  height: 100%;
+  width: 70%;
+}
+
+div.events-blurb {
+  height: 100%;
+  width: 70%;
+}
+
+/* RESOURCES BOX RESIZE */
+
+div.resource-list-left {
+  height: 100%;
+  width: 80%;
+}
+div.resource-list-right {
+  height: 100%;
+  width: 80%;
+}
+
+div.faculty-map {
+  height: 100%;
+  width: 80%;
+}
+div.navigating-map {
+  height: 100%;
+  width: 80%;
+}
+
+div.credit-map {
+  height: 100%;
+  width: 80%;
+}
+
+div.department-links {
+  height: 100%;
+  width: 80%;
+}
+
+div.honors-thesis-blurb {
+  height: 100%;
+  width: 80%;
+}
+
+div.honors-thesis-tips {
+  height: 100%;
+  width: 80%;
+}
 
 
 }
+
+/* END MOBILE */
 
 .nav-active {
   transform: translateX(0%);
@@ -299,7 +449,9 @@ h1 {
 
 h2 {
   font-weight: normal;
-  font-size: 2.5rem;
+  /*font-size: 2.5rem;*/
+  font-size: 2.5em;
+  /*font-size: 2.5vw;*/
   font-family: 'Lato', sans-serif;
   color: #414194;
   padding-bottom: 10px;
@@ -571,7 +723,7 @@ p {
 
 .contact-us {
   height: 100%;
-  width: 60%;
+  width: 40%;
 
 
 }
@@ -581,7 +733,7 @@ p {
   padding-bottom: 10%;
   padding-right: 10%; */
   height: 100%;
-  width: 30%;
+  width: 20%;
   padding-top: 4%;
 }
 
@@ -603,13 +755,15 @@ p {
 }
 
 .logo-brain-img {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
+  padding-top: 15%;
 }
 
 .middle-container-index3 {
   padding-bottom: 6%;
   position: relative;
+
  
 }
 
@@ -620,14 +774,17 @@ p {
   flex-flow: wrap;
 }
 
-.more-links {
+.index-links {
   height: 100%;
   width: 40%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  line-height: 40px;
 }
 
 .links-container-img {
   height: 100%;
-  width: 40%;
+  width: 20%;
 }
 
 /* ABOUT.HTML */
@@ -648,17 +805,22 @@ p {
   justify-content: space-around;
   flex-flow: wrap;
   padding-bottom: 2%;
+  margin-top: 4%;
 }
 
 .about-cssa1 {
   height: 100%;
   width: 40%;
+  background-color: #EDF4F3;
+  padding: 1% 2%;
 
 }
 
 .about-cssa2 {
   height: 100%;
   width: 40%;  
+  background-color: #EDF4F3;
+  padding: 1% 2%;
 }
 
 .aboutcogsci-img {
@@ -796,8 +958,13 @@ p {
 
 
 .first-event-blurb {
-  padding-right: 14%;
-  padding-left: 14%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: #DDDDFA;
+  margin-right: 8%;
+  margin-left: 8%;
 
 }
 
@@ -814,6 +981,11 @@ p {
 
 }
 
+.google-calendar-actual {
+  height: 500px;
+  width: 600px;
+}
+
 .events-up {
   display: flex;
   flex-direction: row;
@@ -821,16 +993,16 @@ p {
   flex-flow: wrap;
 }
 
-.event1 {
+.event-1 {
   height: 100%;
-  width: 50%;
+  width: 100%;
 }
 
 .event-square-img {
   height: 200px;
   width: auto;
 }
-.event2 {
+.event-2 {
   height: 100%;
   width: 50%;
 }
