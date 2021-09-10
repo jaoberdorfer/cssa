@@ -231,6 +231,21 @@ nav {
   font-size: 12px;
 }
 
+
+div.tipslist {
+  /* width: 60%; */
+  padding-left: 4%;
+  padding-right: 4%;
+
+
+}
+
+div.tip {
+  position: relative;
+  margin: 5px 10px;
+
+}
+
 /* CONFERENCE STUFF */
 
 .placeholder .conference-banner {
@@ -280,7 +295,7 @@ img.ocf-tag {
   font-size: 1em;
 }
 
-/* EVENT STUFF */
+/* EVENT (and resource link) STUFF */
 
 .resource-links {
   /*margin-right: 0px;
