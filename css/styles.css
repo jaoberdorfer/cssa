@@ -555,7 +555,7 @@ p {
 }
 
 .wrap {
-  padding-bottom: 4%;
+  /*padding-bottom: 4%;*/
 }
 
 .bottom-container {
@@ -714,7 +714,7 @@ p {
 
 .middle-links-txt {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   /*text-decoration: underline;*/
   transform: translate(-50%, -50%);
@@ -1057,6 +1057,26 @@ width: 50%;
 .events-trial-img {
   height: 100%;
   width: 100%;
+}
+
+.weekly-meetings {
+  padding-top: 2%;
+  background-color: #EDF4F3;
+}
+
+.outreach-program {
+  padding-top: 2%;
+  background-color: #D2E5E2;
+}
+
+.academic-events {
+  padding-top: 2%;
+  background-color: #EDF4F3;
+}
+
+.social-events {
+  padding-top: 2%;
+  background-color: #D2E5E2;
 }
 
 /* RESOURCES.HTML */
