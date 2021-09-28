@@ -25,6 +25,7 @@ const navSlide = ()=> {
 }
 navSlide();
 
+
 particlesJS('particles-js',
   
   {
