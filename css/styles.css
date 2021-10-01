@@ -272,6 +272,7 @@ margin-top: 0.4em;
 
 #title {
   font-size: 3.8em;
+
 }
 
 /* RESOURCE STUFF */
@@ -298,9 +299,14 @@ div.tip {
 
 /* CONFERENCE STUFF */
 
+.conf-link {
+  padding-bottom: 10%;
+}
+
 .placeholder .conference-banner {
   height: 32vh;
   width: 80%;
+
 }
 
 /* FOOTER STUFF */
@@ -332,6 +338,7 @@ img.ocf-tag {
 
 .people-title {
   font-size: 0.8em;
+
 }
 
 .people-img .ppl-img {
@@ -508,9 +515,11 @@ div.honors-thesis-tips {
 h1 {
   /*font-size: 5.625rem;*/
   font-size: 5rem;
-  margin: 50px auto 0 auto;
+  /*margin: 50px auto 0 auto;*/
+  margin-top: 1%;
   font-family: 'Rosario', sans-serif;
   color: #ACACE6;
+  margin-bottom: 0!important;
 }
 
 h2 {
@@ -794,11 +803,7 @@ p {
   padding-top: 2%;
   padding-bottom: 2%;
   /*background-color: #DDDDFA;*/
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
-
+ 
 }
 
 /* 
@@ -807,9 +812,31 @@ p {
 } */
 
 .contact-us {
+ display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-right: 4%;
+  margin-left: 4%;
+
+}
+
+.contact-us-head {
   height: 100%;
   width: 40%;
+}
 
+.contact-head {
+  font-size: 5.4em!important;
+}
+
+.contact-emails {
+  font-size: 3em;
+}
+
+.contact-emails-contain {
+  width: 40%;
+  height: 100%;
 
 }
 
@@ -827,10 +854,7 @@ p {
   height: 80%;
 }
 
-.contact-head {
-  padding: 0;
 
-}
 
 
 .index-zoomlink {
@@ -879,8 +903,6 @@ p {
 }
 
 .page-top {
-  padding-top: 10px;
-  padding-bottom: 10px;
   /*background-color: #2D2D72;*/
   background-color: #FFFDFA;
 }
@@ -892,6 +914,8 @@ p {
   flex-flow: wrap;
   /*padding-bottom: 2%;*/
   /*margin-top: 4%;*/
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .about-cssa1 {
@@ -943,7 +967,7 @@ p {
 
 .middle-container-about {
   /*background-color: #E3F2FF;*/
-  padding-top: 2%;
+  padding-top: 0;
   padding-bottom: 4%;
   margin: 4% 6%;
 }
@@ -974,6 +998,59 @@ p {
 .involvesq {
   width: 80%;
   height: auto;
+}
+
+.involve-sq1 {
+  height: 200px;
+  width: 200px;
+  background: url(../images/involve_imgs/invsq1.png) no-repeat;
+  background-size: 200px;
+  display: inline-block;
+}
+
+.involve-sq1:hover {
+  background: url(../images/involve_imgs/invsqa.png) no-repeat;
+  background-size: 200px;
+  transition: 0.5s ease;
+}
+.involve-sq2 {
+  height: 200px;
+  width: 200px;
+  background: url(../images/involve_imgs/invsq2.png) no-repeat;
+  background-size: 200px;
+  display: inline-block;
+}
+
+.involve-sq2:hover {
+  background: url(../images/involve_imgs/invsqb.png) no-repeat;
+  background-size: 200px;
+  transition: 0.5s ease;
+}
+.involve-sq3 {
+  height: 200px;
+  width: 200px;
+  background: url(../images/involve_imgs/invsq3.png) no-repeat;
+  background-size: 200px;
+  display: inline-block;
+}
+
+.involve-sq3:hover {
+  background: url(../images/involve_imgs/invsqc.png) no-repeat;
+  background-size: 200px;
+  transition: 0.5s ease;
+}
+.involve-sq4 {
+  height: 200px;
+  width: 200px;
+  background: url(../images/involve_imgs/invsq4.png) no-repeat;
+  background-size: 200px;
+  display: inline-block;
+}
+
+.involve-sq4:hover {
+  background: url(../images/involve_imgs/invsqd.png) no-repeat;
+  background-size: 200px;
+  transition: 0.5s ease;
 }
 
 .involve-sqs {
@@ -1156,6 +1233,8 @@ p {
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
+  margin-left: 6%;
+  margin-right: 10%;
 
 }
 
@@ -1215,6 +1294,7 @@ p {
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
+
 }
 .pevent-square1 {
   
@@ -1226,13 +1306,21 @@ p {
 .preveventcontain {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   flex-flow: wrap;
+  justify-content: space-around;
+   margin-left: 10%;
+  margin-right: 10%;
 }
 
 .prevevent {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 100%;
+
+}
+.prevevent {
+  width: 20%;
+  height: 100%;
+  margin-right: 10%;
 }
 
 .events-column {
@@ -1284,8 +1372,9 @@ width: 50%;
 .resource-nav {
   /*background-color: #D2E5E2; */
   background-color: #DDDDFA;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 14px;
 
 }
 
@@ -1460,6 +1549,10 @@ width: 50%;
   padding-top: 1%;
 }
 
+.thesis-row {
+  margin-bottom: 3%;
+}
+
 .thesis-info {
   text-align: left;
   padding-left: 8%;
@@ -1473,8 +1566,8 @@ width: 50%;
 /* CONFERENCE.HTML */
 
 .placeholder {
-  padding-top: 2%;
   padding-bottom: 4%;
+  margin-top: 2%;
 }
 
 .conference-banner {
@@ -1533,12 +1626,22 @@ width: 50%;
 }
 
 .ppl-img {
-  height: 140px;
-  width: 140px;
+  height: 180px;
+  width: auto;
 }
 
 #people-wrap {
   padding-bottom: 0px;
+}
+
+.people-title {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.people-name {
+  font-weight: normal;
+  
 }
 
 
@@ -1556,6 +1659,38 @@ width: 50%;
    background-color: #10104E;
 }
 
+
+
+/* ABOUT LINKS AT BOTTOM */
+.what-is-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-bottom: 4%;
+}
+
+.what-is-link {
+  display: inline;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+
+/*CONFERENCE LINKS AT TOP */
+
+.conf-links {
+  margin-bottom: 2%;
+}
+
+.conf-link {
+  color: #E6CCA5;
+  display: inline;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/*HONORS THESIS ARCHIVE */
 
 
 
