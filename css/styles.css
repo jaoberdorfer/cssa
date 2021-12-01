@@ -115,7 +115,8 @@ margin-top: 0.4em;
 }
 
 .nav-links a{
-  color: #414194; 
+  /*color: #414194;*/
+  color: #9FA8FF;
   /* color: #ACACE6; */
   text-decoration: none;
   letter-spacing: 3px;
@@ -242,7 +243,8 @@ margin-top: 0.4em;
 }
 
   .particles-title {
-    font-size: 1.6em;
+    font-size: 1.4em;
+    
   }
 
   .particles-subtitle {
@@ -551,6 +553,7 @@ a:hover {
 p {
   line-height: 2;
   color: #6C6C83;
+
 }
 
 /* hr {
@@ -598,7 +601,9 @@ p {
 .particles-title {
   color: white;
   font-family: Rosario, 'sans-serif';
+  font-size: 3em;
   letter-spacing: 6px;
+  
 
 }
 
@@ -631,7 +636,8 @@ p {
   padding-top: 40px; */
 
   /* NEW STUFF TRIAL */
-  background-color: #171756;
+  /*background-color: #171756;*/
+  background-color: #10104E;
   height: auto;
   padding-top: 4%;
   padding-bottom: 2%;
@@ -697,7 +703,7 @@ p {
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
-   color: #FFFFFF;
+   color: #BBBBDD;
    font-family: 'Lato', sans-serif;
    font-size: 20px;
    font-weight: 100;
@@ -710,8 +716,8 @@ p {
 }
 
 .btn:hover {
-   border: solid #ACACE6 1px;
-   background: #DDDDFA;
+   /*border: solid #ACACE6 1px;*/
+   background: #4848C1;
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
@@ -743,6 +749,7 @@ p {
   padding-left: 2%;
   padding-right: 2%;
 }
+
 
 /* 
 .middle-container-index2 {
@@ -791,12 +798,44 @@ p {
   position: relative;
 }
 
+.middle-links-img-tst {
+  width: 90%;
+  height: auto;
+  /*height: 90%;*/
+  opacity: 1;
+  position: relative;
+}
+
+.middle-links-img-tst:hover {
+  width: 90%;
+  height: auto;
+  /*height: 90%;*/
+  opacity: 0.5;
+  position: relative;
+}
+
 .middle-links-txt {
   position: absolute;
   top: 45%;
   left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle-links-txt-tst {
+  position: absolute;
+  /*top: 45%;*/
+  left: 50%;
   /*text-decoration: underline;*/
   transform: translate(-50%, -50%);
+  color: white;
+}
+
+.middle-links-txt2-tst {
+  /*position: absolute;*/
+  margin-top: 10%;
+  /*text-decoration: underline;*/
+  /*transform: translate(-50%, -50%);*/
+  color: #BBBBDD;
 }
 
 .middle-container-index2 {
@@ -832,6 +871,7 @@ p {
 
 .contact-emails {
   font-size: 3em;
+  color: white;
 }
 
 .contact-emails-contain {
@@ -905,6 +945,11 @@ p {
 .page-top {
   /*background-color: #2D2D72;*/
   background-color: #FFFDFA;
+}
+
+.page-top-title {
+  transition: 0.5s ease; /*????????????????*/
+  color: ;
 }
 
 .about-info-top {
@@ -1109,6 +1154,7 @@ p {
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
+  margin-top: 2%;
 
 }
 
@@ -1233,7 +1279,7 @@ p {
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
-  margin-left: 6%;
+  margin-left: 10%;
   margin-right: 10%;
 
 }
@@ -1247,19 +1293,42 @@ p {
   background-color: #DDDDFA;
   margin-right: 8%;
   margin-left: 8%;
-
 }
 
 
 .upcoming-events {
-  height: 100%
-  width: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.exampleupcomingimg {
+  height: 70%;
+  width: 70%;
+}
+
+.upcoming-events-contain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+
 
 }
 
-.google-calendar {
-  height: 100%
+.upcoming-events-img {
+  height: 100%;
   width: 50%;
+}
+
+.upcoming-events-blurb {
+  height: 100%;
+  width: 50%;
+  margin-top: 8%;
+}
+
+.google-calendar {
+  height: 100%;
+  width: 100%;
 
 }
 
@@ -1310,17 +1379,23 @@ p {
   justify-content: space-around;
    margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 5%;
 }
 
 .prevevent {
-  width: 20%;
+  width: 50%;
   height: 100%;
 
 }
-.prevevent {
-  width: 20%;
+.prevevent2 {
+  width: 50%;
   height: 100%;
-  margin-right: 10%;
+  /*margin-right: 10%;*/
+}
+
+.preveventimg {
+  height: 60%;
+  width: 60%;
 }
 
 .events-column {
@@ -1403,6 +1478,7 @@ width: 50%;
 
 .resource-title {
   font-size: 1.6em;
+  color: #8484FF;
 }
 
 .resource-list {
@@ -1424,7 +1500,12 @@ width: 50%;
 
 .resource-list-title {
   font-size: 1.2em;
-  color: #5A5AAD;
+  /*color: #5A5AAD;*/
+  color: #8484FF;
+}
+
+.resource-list-blurb {
+  color: #BBBBDD;
 }
 
 .tipslist {
@@ -1444,7 +1525,8 @@ width: 50%;
 .tip-label {
   position: relative;
   padding: 10px;
-  background: #DDDDFA;
+  /*background: #DDDDFA;*/
+  background: #9FA8FF;
   color: #414194;
   cursor: pointer;
 }
@@ -1466,22 +1548,32 @@ width: 50%;
 .tip .tip-blurb {
   position: relative;
   padding: 10px;
-  background: #EDF4F3;
+  /*background: #EDF4F3;*/
+  background: #414194;
   height: 0;
   overflow: hidden;
   transition: 0.5s;
   overflow-y: auto;
   text-align: left;
   letter-spacing: 0.6px;
-  color: #6C6C83;
+  /*color: #6C6C83;*/
+  color: white;
   font-size: 0.9em;
   line-height: 1.6em;
 
 }
 
 .tip.active .tip-blurb {
-  height: 150px;
+  height: 200px;
   padding: 10px;
+}
+
+.cogsci-faculty {
+  background-color: #2D2D72;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* TRY ADDING PADDING-BOTTOM ON DIV ABOVE TOO */
+  margin-top: 4%;
 }
 
 .faculty-row {
@@ -1509,6 +1601,14 @@ width: 50%;
 .department-links {
   height: 100%;
   width: 40%;
+}
+
+.honors-thesis {
+  background-color: #ACACE6;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* TRY ADDING PADDING-BOTTOM ON DIV ABOVE TOO */
+
 }
 
 .honors-row1 {
@@ -1549,6 +1649,10 @@ width: 50%;
   padding-top: 1%;
 }
 
+.link-back-events-l {
+  margin-left: 5%;
+}
+
 .thesis-row {
   margin-bottom: 3%;
 }
@@ -1561,6 +1665,7 @@ width: 50%;
 
 .thesis-info-txt {
   font-size: 0.86em;
+  color: #BBBBDD;
 }
 
 /* CONFERENCE.HTML */
@@ -1571,8 +1676,54 @@ width: 50%;
 }
 
 .conference-banner {
-  height: 60vh;
-  width: 60%;
+  /*height: 60vh;*/
+  height: 300px;
+  /*width: 60%;*/
+  width: 600px;
+}
+
+.conf-schedule {
+  height: 600px;
+}
+
+.conf-info-txt {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.conf-links a:hover {
+  text-decoration: underline;
+
+}
+#clink {
+  cursor: pointer;
+  font-size: 1.4em;
+  color: white;
+}
+#clink2 {
+  cursor: pointer;
+  font-size: 1.4em;
+  color: white;
+}
+#clink3 {
+  cursor: pointer;
+  font-size: 1.4em;
+  color: white;
+}
+
+.cshowcome {
+  margin-left: 10%;
+  margin-right: 10%;
+  transition: 1s ease;
+}
+
+#cshow2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#cshow3 {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 
@@ -1582,22 +1733,22 @@ width: 50%;
 .people-row1 {
  /* background-color: #FFF3F5; */
   padding-top: 4%;
-  padding-bottom: 4%;
+  padding-bottom: 3%;
 }
 .people-row2 {
  /* background-color: #FBF6EB;*/
     padding-top: 4%;
-  padding-bottom: 4%;
+  padding-bottom: 3%;
 }
 .people-row3 {
   /*background-color: #EDF4F3;*/
     padding-top: 4%;
-  padding-bottom: 4%;
+  padding-bottom: 3%;
 }
 .people-row4 {
   /*background-color: #F3F9FF;*/
     padding-top: 4%;
-  padding-bottom: 4%;
+  padding-bottom: 3%;
 }
 
 .people-row-column3 {
@@ -1637,10 +1788,12 @@ width: 50%;
 .people-title {
   font-weight: 900;
   font-size: 1.5em;
+  color: #9FA8FF;
 }
 
 .people-name {
   font-weight: normal;
+  color: #8484FF;
   
 }
 
@@ -1681,6 +1834,7 @@ width: 50%;
 
 .conf-links {
   margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 .conf-link {
@@ -1691,6 +1845,9 @@ width: 50%;
 }
 
 /*HONORS THESIS ARCHIVE */
+
+
+
 
 
 
