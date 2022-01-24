@@ -39,8 +39,12 @@ nav {
 
 }
 
-#darkmode-nav {
+.darkmode-nav {
   background-color: #10104E;
+}
+
+.darkmode-nav li a{
+  color: #ACACE6;
 }
 
 /* LOGO FOR CSSA TEXT NOT IMG ->  
@@ -69,6 +73,7 @@ nav {
 
 
   /*display: block;*/
+  margin-top: 3%;
 
 
 }
@@ -100,11 +105,13 @@ margin-top: 0.4em;
 .nav-links {
   /* USED THIS TO MAKE LINKS MORE IN FROM RIGHT */
   /* margin-right: 12%;  CHANGED RECENT */
-  margin-right: 10%;
+  margin-right: 11%;
   padding-right: 4%;
   display: flex;
   justify-content: space-around;
   width: 30%;
+
+  margin-top: 2%;
 }
 
 .nav-links li{
@@ -116,18 +123,20 @@ margin-top: 0.4em;
 
 .nav-links a{
   /*color: #414194;*/
-  color: #9FA8FF;
+  
+  /*color: #9FA8FF;*/
+  color: #414194;
+
   /* color: #ACACE6; */
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
   /*font-size: 14px;*/
-  font-size: 14px;
+  
+  /*font-size: 0.9rem;*/
+  font-size: 16px;
 }
 
-#darkmode-nav a {
-  color: #ACACE6;
-}
 
 /* NAV UNDERLINE */
 
@@ -137,6 +146,7 @@ margin-top: 0.4em;
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  text-decoration: underline;
 }
 
 .nav-links a:hover:after {
@@ -160,7 +170,18 @@ margin-top: 0.4em;
 
 } 
 
-@media screen and (max-width: 1180px){
+/* max width previously at 1180px */
+
+@media screen and (max-width: 1250px){
+
+  h1 {
+    font-size: 4rem!important;
+  }
+
+  h2 {
+    font-size: 2.6rem!important;
+  }
+
   .nav-links {
   width: 50%;
   margin-right: 6%;
@@ -168,13 +189,15 @@ margin-top: 0.4em;
   }
 
   .nav-links a {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .logo-img {
     height: auto;
-    width: 140px;
-    padding-left: 20%;
+    width: 70%;
+    /*padding-left: 20%*/
+    padding-left: 18%;
+    margin-top: 1%;
   }
 
   .learn-more .btn {
@@ -222,8 +245,8 @@ margin-top: 0.4em;
   }
 
   .logo-img {
-    width: 40%;
-    height: 40%;
+    width: 90%;
+    height: 90%;
     padding-left: 0px;
   }
 
@@ -238,9 +261,14 @@ margin-top: 0.4em;
   /* INDEX STUFF */
 
   #particles-js {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
+
+  canvas.particles-js-canvas-el {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
 
   .particles-title {
     font-size: 1.4em;
@@ -516,10 +544,17 @@ div.honors-thesis-tips {
 
 h1 {
   /*font-size: 5.625rem;*/
-  font-size: 5rem;
+  
+  /*font-size: 5rem;*/
+
   /*margin: 50px auto 0 auto;*/
   margin-top: 1%;
-  font-family: 'Rosario', sans-serif;
+  
+  /* font-family: 'Rosario', sans-serif; */
+  font-size: 4.56rem;
+  font-weight: 600;
+
+  font-family: 'Josefin Sans', sans-serif;
   color: #ACACE6;
   margin-bottom: 0!important;
 }
@@ -529,19 +564,21 @@ h2 {
   /*font-size: 2.5rem;*/
   font-size: 2.5em;
   /*font-size: 2.5vw;*/
-  font-family: 'Rosario', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
   color: #414194;
   padding-bottom: 10px;
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
   color: #414194;
 }
 
 a {
   color: #667BEB;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
@@ -553,6 +590,8 @@ a:hover {
 p {
   line-height: 2;
   color: #6C6C83;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
 
 }
 
@@ -609,6 +648,7 @@ p {
 
 .particles-subtitle {
   color: white;
+  font-size: 1.4em;
 
 } 
 
@@ -619,6 +659,7 @@ p {
 .container {
   position: relative;
   min-height: 100vh;
+  background-color: #ECF1F5;
 }
 
 .wrap {
@@ -735,6 +776,7 @@ p {
   outline-color: #8B8BD0;
   outline-offset: 10px;
   transition: all 100ms cubic-bezier(0.2, 0, 0, 0.8);
+  font-size: 1.2em;
 }
 
 .indexbtn:hover {
@@ -827,7 +869,8 @@ p {
   left: 50%;
   /*text-decoration: underline;*/
   transform: translate(-50%, -50%);
-  color: white;
+  margin-top: 6%;
+  color: #2D2D72;
 }
 
 .middle-links-txt2-tst {
@@ -835,7 +878,8 @@ p {
   margin-top: 10%;
   /*text-decoration: underline;*/
   /*transform: translate(-50%, -50%);*/
-  color: #BBBBDD;
+  /*color: #BBBBDD;*/
+  color: #6C6C83;
 }
 
 .middle-container-index2 {
@@ -871,7 +915,7 @@ p {
 
 .contact-emails {
   font-size: 3em;
-  color: white;
+  color: black;
 }
 
 .contact-emails-contain {
@@ -944,12 +988,15 @@ p {
 
 .page-top {
   /*background-color: #2D2D72;*/
-  background-color: #FFFDFA;
+  margin-top: 4%;
+  background-color: #ECF1F5;
+  margin-bottom: 1%;
 }
 
 .page-top-title {
   transition: 0.5s ease; /*????????????????*/
-  color: ;
+
+
 }
 
 .about-info-top {
@@ -1036,6 +1083,71 @@ p {
   height: 100%;
   width: 100%;
 }
+
+/*ABOUT BLURBS AT BOTTOM */
+.what-is-links a:hover {
+  text-decoration: underline;
+
+}
+#alink {
+  cursor: pointer;
+  font-size: 1.4em;
+  color: #414194;
+}
+#alink2 {
+  cursor: pointer;
+  font-size: 1.4em;
+  color: #414194;
+}
+#alink3 {
+  cursor: pointer;
+  font-size: 1.4em;
+  color: #414194;
+}
+#alink4 {
+  cursor: pointer;
+  font-size: 1.4em;
+  color: #414194;
+}
+#alink5 {
+  cursor: pointer;
+  font-size: 1.4em;
+  color: #414194;
+}
+#alink6 {
+  cursor: pointer;
+  font-size: 1.4em;
+  color: #414194;
+}
+
+.ashowcome {
+  margin-left: 10%;
+  margin-right: 10%;
+  transition: 1s ease;
+}
+
+
+#ashow2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#ashow3 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#ashow4 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#ashow5 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#ashow6 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 
 
 /* INVOLVEMENT.HTML */
@@ -1657,6 +1769,10 @@ width: 50%;
   margin-bottom: 3%;
 }
 
+.thesis-row p{
+  font-size: 1.1em;
+}
+
 .thesis-info {
   text-align: left;
   padding-left: 8%;
@@ -1777,7 +1893,7 @@ width: 50%;
 }
 
 .ppl-img {
-  height: 180px;
+  height: 200px;
   width: auto;
 }
 
@@ -1809,7 +1925,7 @@ width: 50%;
 }
 
 #pplback {
-   background-color: #10104E;
+
 }
 
 
