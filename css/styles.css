@@ -1,14 +1,16 @@
 
 /* INDEX.HTML */
 body {
-  color: #40514E;
-  background-color: #FFFDFA;
+  /*color: #40514E;*/
+  color: #ECF1F5;
+  /*background-color: #FFFDFA;*/
+  background-color: #ECF1F5;
   margin: 0;
   padding: 0px;
   height: 100%;
   box-sizing: border-box;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 
   /* IDK IF THIS WILL WORK 
   display: flex;
@@ -33,7 +35,7 @@ nav {
   align-items: center;  
   min-height: 8vh; 
  background-color: #FFFDFA; 
-  font-family: 'Lato', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   z-index: 100;
   position: relative;
 
@@ -46,6 +48,12 @@ nav {
 .darkmode-nav li a{
   color: #ACACE6;
 }
+
+.darkmode-nav li a:hover{
+  color: white;
+}
+
+
 
 /* LOGO FOR CSSA TEXT NOT IMG ->  
 .logo {
@@ -141,12 +149,13 @@ margin-top: 0.4em;
 /* NAV UNDERLINE */
 
 .nav-links a:hover {
-  -moz-transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  text-decoration: underline;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  color: #8A8AFF;
+  font-size: 17px;
 }
 
 .nav-links a:hover:after {
@@ -210,6 +219,12 @@ margin-top: 0.4em;
    border: solid #414194 1px;
 }
 
+/* ccsc pages */
+
+img.conf-schedule {
+  height: 400px;
+  width: auto;
+}
   
 
 }
@@ -260,15 +275,17 @@ margin-top: 0.4em;
 
   /* INDEX STUFF */
 
+  /*padding was 2% previously*/
   #particles-js {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
-  canvas.particles-js-canvas-el {
+
+  /*.particles-js-canvas-el {
     padding-top: 10%;
     padding-bottom: 10%;
-  }
+  }*/
 
   .particles-title {
     font-size: 1.4em;
@@ -282,6 +299,15 @@ margin-top: 0.4em;
   .middle-links-txt {
     font-size: 0.86em;
   }
+
+  h3.middle-links-txt-tst {
+    margin-top: 10%;
+  }
+
+  p.middle-links-txt2-tst {
+    padding-top: 10%;
+  }
+
 
   img.middle-links-img {
     height: 120px;
@@ -303,6 +329,28 @@ margin-top: 0.4em;
 #title {
   font-size: 3.8em;
 
+}
+
+/* INVOLVEMENT STUFF */
+
+div.how-get-involved {
+  height: 100%;
+  width: 50%;
+}
+
+div.join-outreach {
+  height: 100%;
+  width: 50%;
+}
+
+div.help-conference {
+  height: 100%;
+  width: 50%;
+}
+
+div.join-mailing {
+  height: 100%;
+  width: 50%;
 }
 
 /* RESOURCE STUFF */
@@ -334,9 +382,23 @@ div.tip {
 }
 
 .placeholder .conference-banner {
+  /*height: 32vh;
+  width: 80%;*/
   height: 32vh;
-  width: 80%;
+  width: auto;
 
+}
+
+/* CCSC STUFF */
+
+img.conf-schedule {
+  height: 380px;
+  width: auto;
+}
+
+img.conference-page-banner {
+  height: 300px;
+  width: auto;
 }
 
 /* FOOTER STUFF */
@@ -567,7 +629,7 @@ h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   color: #414194;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
 }
 
 h3 {
@@ -592,6 +654,7 @@ p {
   color: #6C6C83;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
+  font-size: 1.2em;
 
 }
 
@@ -639,7 +702,7 @@ p {
 
 .particles-title {
   color: white;
-  font-family: Rosario, 'sans-serif';
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 3em;
   letter-spacing: 6px;
   
@@ -659,6 +722,7 @@ p {
 .container {
   position: relative;
   min-height: 100vh;
+  /*background-color: #ECF1F5;*/
   background-color: #ECF1F5;
 }
 
@@ -692,6 +756,11 @@ p {
 
 .footer-link {
   color: #ACACE6;
+}
+
+.footer-link:hover {
+  color: white;
+  font-size: 1em;
 }
 
 .footer-line {
@@ -745,7 +814,7 @@ p {
    -moz-border-radius: 10px;
    border-radius: 10px;
    color: #BBBBDD;
-   font-family: 'Lato', sans-serif;
+   font-family: 'Josefin Sans', sans-serif;
    font-size: 20px;
    font-weight: 100;
    padding: 10px 20px;
@@ -894,7 +963,7 @@ p {
   padding-left: 10%;
 } */
 
-.contact-us {
+/*.contact-us {
  display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -902,12 +971,12 @@ p {
   margin-right: 4%;
   margin-left: 4%;
 
-}
+}*/
 
-.contact-us-head {
+/*.contact-us-head {
   height: 100%;
   width: 40%;
-}
+}*/
 
 .contact-head {
   font-size: 5.4em!important;
@@ -915,14 +984,14 @@ p {
 
 .contact-emails {
   font-size: 3em;
-  color: black;
+  color: #2D2D72;
 }
 
-.contact-emails-contain {
+/*.contact-emails-contain {
   width: 40%;
   height: 100%;
 
-}
+}*/
 
 .contact-img {
   /* padding-top: 5%;
@@ -1034,16 +1103,16 @@ p {
 }
 
 .cogsci-blurb {
-
-  width: 20%;  
-
+  height: 100%;
+  width: 100%;
+  margin-right: 8%;
+  margin-left: 8%;
 }
 
 .cogsci-blurb-img {
-  
-  width: 20%;  
-
-}
+  height: 100%;
+  width: 100%;
+} 
 
 .aboutcogsci-img {
   height: 14%;
@@ -1064,25 +1133,6 @@ p {
   margin: 4% 6%;
 }
 
-.what-is-cogsci {
-  display: flex;
-  
-  justify-content: space-around;
-  flex-flow: wrap;
-
-}
-
-.cogsci-blurb {
-  height: 100%;
-  width: 100%;
-  margin-right: 8%;
-  margin-left: 8%;
-}
-
-.cogsci-blurb-img {
-  height: 100%;
-  width: 100%;
-}
 
 /*ABOUT BLURBS AT BOTTOM */
 .what-is-links a:hover {
@@ -1124,6 +1174,8 @@ p {
   margin-left: 10%;
   margin-right: 10%;
   transition: 1s ease;
+
+  margin-bottom: 4%;
 }
 
 
@@ -1146,6 +1198,10 @@ p {
 #ashow6 {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.what-is-section {
+  margin-bottom: 4%;
 }
 
 
@@ -1556,12 +1612,17 @@ width: 50%;
 
 /* RESOURCES.HTML */
 
+#resources-wrap {
+  padding-bottom: 0px;
+}
+
 .resource-nav {
   /*background-color: #D2E5E2; */
   background-color: #DDDDFA;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin-top: 14px;
+  margin-top: 3%;
+  margin-bottom: 4%;
 
 }
 
@@ -1581,10 +1642,10 @@ width: 50%;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1.2em;
 }
 .resource-links a:hover{
-  color: #5E7C77;
+  color: white;
 }
 
 
@@ -1616,14 +1677,10 @@ width: 50%;
   color: #8484FF;
 }
 
-.resource-list-blurb {
-  color: #BBBBDD;
-}
-
 .tipslist {
   /* width: 60%; */
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 16%;
+  padding-right: 16%;
 
 
 }
@@ -1670,10 +1727,12 @@ width: 50%;
   letter-spacing: 0.6px;
   /*color: #6C6C83;*/
   color: white;
-  font-size: 0.9em;
+  font-weight: 300;
+  font-size: 1em;
   line-height: 1.6em;
 
 }
+
 
 .tip.active .tip-blurb {
   height: 200px;
@@ -1753,6 +1812,24 @@ width: 50%;
   padding-bottom: 8%;
 }
 
+#opp-faq-subtitle {
+  font-size: 1.5em;
+}
+
+.opp-faq {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 3%;
+}
+
+.opportunities-faq {
+  margin-bottom: 3%;
+}
+
+#scroll-top-resource {
+  margin-bottom: 5%
+}
+
 
 /* HONORSARCHIVE.HTML */
 
@@ -1791,11 +1868,27 @@ width: 50%;
   margin-top: 2%;
 }
 
+#ccsc22-announce {
+  color: white;
+  margin-right: 14%;
+  margin-left: 14%;
+  margin-top: 4%;
+}
+
 .conference-banner {
   /*height: 60vh;*/
-  height: 300px;
   /*width: 60%;*/
-  width: 600px;
+
+  height: 400px;
+  width: 700px;
+  
+  /*height: 40%;
+  width: 40%;*/
+}
+
+#confban22 {
+  height: 400px;
+  width: 400px;
 }
 
 .conf-schedule {
@@ -1803,28 +1896,30 @@ width: 50%;
 }
 
 .conf-info-txt {
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 16%;
+  margin-left: 16%;
+  color: #E6CCA5;
 }
 
 .conf-links a:hover {
   text-decoration: underline;
+  color: white;
 
 }
 #clink {
   cursor: pointer;
   font-size: 1.4em;
-  color: white;
+
 }
 #clink2 {
   cursor: pointer;
   font-size: 1.4em;
-  color: white;
+
 }
 #clink3 {
   cursor: pointer;
   font-size: 1.4em;
-  color: white;
+
 }
 
 .cshowcome {
@@ -1842,6 +1937,68 @@ width: 50%;
   margin-right: 10%;
 }
 
+.ccsc21nav li a {
+  color: white;
+}
+
+.cshow-title {
+  color: white;
+  font-size: 1.8em;
+}
+
+.cshow-text {
+  color: white;
+}
+
+.conf-sponsors-img {
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.conf-faq {
+  list-style: none;
+}
+
+.conf-faq li {
+  font-size: 1.2em;
+  color: #7F7FC8;
+  margin-bottom: 3%;
+}
+
+.conf-faq li p{
+  font-size: 0.9em;
+  color: white;
+}
+
+/* CCSC PAGES */
+
+.conference-page-banner {
+  height: 500px;
+  width: 800px;
+}
+
+.ccsc-subtitles {
+  color: #E6CCA5;
+}
+
+.speaker-type {
+  font-size: 1.6em!important;
+  color: #E6CCA5;;
+}
+
+.speaker-bios {
+  font-size: 0.9em;
+  color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.speaker-names {
+  color: #E6CCA5;
+  font-size: 1.3em;
+}
 
 
 /* PEOPLE.HTML */
@@ -1913,6 +2070,68 @@ width: 50%;
   
 }
 
+/*SLIDESHOW*/
+
+#slideshow {
+  overflow: hidden;
+  height: 410px;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.slide {
+  float: left;
+  height: 410px;
+  width: 800px;
+}
+
+.slide-wrap {
+  width: calc(800px * 4);
+  /*animation: slide 10s ease infinite;*/
+  animation: slide 12s ease infinite;
+  /*animation-fill-mode: forwards;*/
+}
+
+.slide:nth-child(1) {
+  background: green;
+  animation-delay: 0s;
+}
+.slide:nth-child(2) {
+  background: blue;
+  animation-delay: 3s;
+}
+.slide:nth-child(3) {
+  background: red;
+  animation-delay: 6s;
+}
+.slide:nth-child(4) {
+  background: yellow;
+  animation-delay: 9s;
+}
+
+@keyframes slide {
+
+  20% {
+    margin-left: 0px;
+    animation-delay: 0s;
+  }
+  40% {
+    margin-left: calc(-800px * 1);
+    animation-delay: 3s;
+  }
+  60% {
+    margin-left: calc(-800px * 2);
+    animation-delay: 6s;
+  }
+  80% {
+    margin-left: calc(-800px * 3);
+    animation-delay: 9s;
+  }
+
+}
+
 
 
 /* OTHER RANDOM STUFF */
@@ -1951,6 +2170,26 @@ width: 50%;
 .conf-links {
   margin-bottom: 2%;
   margin-top: 2%;
+}
+
+.conf-links a {
+    color: #9999FF;
+}
+
+#conf-scroll-up {
+  color: #9999FF;
+}
+
+#conf-scroll-up:hover {
+  color: white;
+}
+
+.conf-nav li a {
+  color: #E6CCA5;
+}
+
+.conf-nav li a:hover {
+  color: #9999FF;
 }
 
 .conf-link {
