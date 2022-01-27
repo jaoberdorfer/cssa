@@ -1669,7 +1669,7 @@ width: 50%;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .resource-links a:hover{
   color: white;
@@ -1839,6 +1839,7 @@ width: 50%;
   padding-bottom: 8%;
 }
 
+
 #opp-faq-subtitle {
   font-size: 1.5em;
 }
@@ -1885,7 +1886,23 @@ width: 50%;
 
 .thesis-info-txt {
   font-size: 0.86em;
-  color: #BBBBDD;
+  color: white;
+}
+
+.download-thesis a {
+  color: #ACACE6;
+}
+
+.download-thesis a:hover {
+  color: white;
+}
+
+.honorsnav li a{
+  color: #ACACE6;
+}
+
+.honorsnav li a:hover{
+  color: white;
 }
 
 /* CONFERENCE.HTML */

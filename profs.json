@@ -1,0 +1,971 @@
+{
+    "name": "Berkeley Cognitive Science",
+    "children": [{
+        "name": "Neuroscience",
+        "children": [{
+            "name": "Systems & Behavioral Neuroscience",
+            "children": [{
+                "name": "Hillel Adesnik",
+                "size": 3938,
+                "link": "http://mcb.berkeley.edu/faculty/all/adesnikh",
+                "affiliated": "no"
+            }, {
+                "name": "Martin Banks",
+                "size": 3812,
+                "link": "http://vision.berkeley.edu/?p=369",
+                "affiliated": "yes"
+            }, {
+                "name": "Helen Bateup",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/bateuph",
+                "affiliated": "no"
+            }, {
+                "name": "George Bentley",
+                "size": 743,
+                "link": "http://ib.berkeley.edu/people/faculty/bentleyg",
+                "affiliated": "no"
+            }, {
+                "name": "Jose Carmena",
+                "size": 6714,
+                "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/carmena.html",
+                "affiliated": "yes"
+            }, {
+                "name": "Yang Dan",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/dany",
+                "affiliated": "no"
+            }, {
+                "name": "Michael DeWeese",
+                "size": 6714,
+                "link": "http://physics.berkeley.edu/people/faculty/michael-deweese",
+                "affiliated": "yes"
+            }, {
+                "name": "Daniel Feldman",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/feldmand",
+                "affiliated": "no"
+            }, {
+                "name": "Marla Feller",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/fellerm",
+                "affiliated": "no"
+            }, {
+                "name": "Howard Fields",
+                "size": 6714,
+                "link": "http://www.cin.ucsf.edu/HTML/Howard_Fields.html",
+                "affiliated": "no"
+            }, {
+                "name": "Darlene Francis",
+                "size": 6714,
+                "link": "http://sph.berkeley.edu/darlene-francis",
+                "affiliated": "no"
+            }, {
+                    "name": "Ming Hsu",
+                    "size": 6714,
+                    "link": "http://facultybio.haas.berkeley.edu/faculty-list/hsu-ming",
+                "affiliated": "no"
+            }, {
+                "name": "Lucia Jacobs",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/lucia-f-jacobs",
+                "affiliated": "yes"
+            }, {
+                "name": "Daniela Kaufer",
+                "size": 6714,
+                "link": "https://ib.berkeley.edu/people/faculty/kauferd",
+                "affiliated": "no"
+            }, {
+                "name": "Stanley Klein",
+                "size": 6714,
+                "link": "http://vision.berkeley.edu/?p=413",
+                "affiliated": "no"
+            }, {
+                "name": "Lance Kriegsfeld",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/lance-kriegsfeld",
+                "affiliated": "no"
+            }, {
+                "name": "Stephan Lammel",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/neu/lammels",
+                "affiliated": "no"
+            }, {
+                "name": "Kristin Scott",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/scottk",
+                "affiliated": "no"
+            }, {
+                "name": "Frederic Theunissen",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/frederic-theunissen",
+                "affiliated": "no"
+            }, {
+                "name": "Jonathan Wallis",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/jonathan-david-wallis",
+                "affiliated": "no"
+            }, {
+                "name": "Linda Wilbrecht",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/linda-wilbrecht",
+                "affiliated": "no"
+            }, {
+                "name": "Michael Yartsev",
+                "size": 6714,
+                "link": "http://bioeng.berkeley.edu/faculty/michael_yartsev",
+                "affiliated": "no"
+            }]
+        }, {
+            "name": "Molecular & Cellular Neuroscience",
+            "children": [{
+                "name": "Hillel Adesnik",
+                "size": 3938,
+                "link": "http://mcb.berkeley.edu/faculty/all/adesnikh",
+                "affiliated": "no"
+            }, {
+                "name": "Helen Bateup",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/bateuph",
+                "affiliated": "no"
+            }, {
+                "name": "Diana Bautista",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/bautistad",
+                "affiliated": "no"
+            }, {
+                "name": "Christopher Chang",
+                "size": 6714,
+                "link": "http://chemistry.berkeley.edu/faculty/chem/chris-chang",
+                "affiliated": "no"
+            }, {
+                "name": "Andrew Dillin",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/dillina",
+                "affiliated": "no"
+            }, {
+                "name": "Daniel Feldman",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/feldmand",
+                "affiliated": "no"
+            }, {
+                "name": "Marla Feller",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/fellerm",
+                "affiliated": "no"
+            }, {
+                "name": "Howard Fields",
+                "size": 6714,
+                "link": "http://www.cin.ucsf.edu/HTML/Howard_Fields.html",
+                "affiliated": "no"
+            }, {
+                "name": "John Flannery",
+                "size": 6714,
+                "link": "http://vision.berkeley.edu/?p=399",
+                "affiliated": "no"
+            }, {
+                "name": "Gian Garriga",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/garrigag",
+                "affiliated": "no"
+            }, {
+                "name": "Ehud Isacoff",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/isacoffe",
+                "affiliated": "no"
+            }, {
+                "name": "Daniela Kaufer",
+                "size": 6714,
+                "link": "https://ib.berkeley.edu/people/faculty/kauferd",
+                "affiliated": "no"
+            }, {
+                "name": "Richard Kramer",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/kramerr",
+                "affiliated": "no"
+            }, {
+                "name": "Evan Miller",
+                "size": 6714,
+                "link": "http://chemistry.berkeley.edu/faculty/chem/evan-miller",
+                "affiliated": "no"
+            }, {
+                "name": "John Ngai",
+                "size": 6714,
+                "link": "https://sites.google.com/site/ngaineuro/",
+                "affiliated": "no"
+            }, {
+                "name": "David Presti",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/prestid",
+                "affiliated": "yes"    
+            }, {
+                "name": "Kaoru Saijo",
+                "size": 6714,
+                "link": "https://mcb.berkeley.edu/faculty/IMM/saijok.html",
+                "affiliated": "no"
+            }, {
+                "name": "David Schaffer",
+                "size": 6714,
+                "link": "http://chemistry.berkeley.edu/faculty/cbe/schaffer",
+                "affiliated": "no"
+            }, {
+                "name": "Kristin Scott",
+                "size": 6714,
+                "link": "http://mcb.berkeley.edu/faculty/all/scottk",
+                "affiliated": "no"
+            }, {
+                "name": "Mark Tanouye",
+                "size": 6714,
+                "link": "http://ourenvironment.berkeley.edu/people/mark-tanouye",
+                "affiliated": "no"
+            }, {
+                "name": "Linda Wilbrecht",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/linda-wilbrecht",
+                "affiliated": "no"
+            }, {
+                "name": "Ke Xu",
+                "size": 6714,
+                "link": "http://chemistry.berkeley.edu/faculty/chem/ke-xu",
+                "affiliated": "no"
+            }, {
+                "name": "Michael Yartsev",
+                "size": 6714,
+                "link": "http://bioeng.berkeley.edu/faculty/michael_yartsev",
+                "affiliated": "no"
+            }]
+        }, {
+            "name": "Cognitive Neuroscience", 
+            "children": [{
+                "name": "Sonia Bishop",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/sonia-bishop",
+                "affiliated": "yes"
+                }, {
+                "name": "Silvia Bunge",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/silvia-bunge",
+                "affiliated": "no"
+                },{
+                "name": "Mark D'Esposito",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/mark-t-desposito",
+                "affiliated": "yes"
+                }, {
+                "name": "Howard Fields",
+                "size": 6714,
+                "link": "http://www.cin.ucsf.edu/HTML/Howard_Fields.html",
+                "affiliated": "no"
+                }, {
+                "name": "Jack Gallant",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/jack-l-gallant",
+                "affiliated": "no"
+                }, {
+                    "name": "Ming Hsu",
+                    "size": 6714,
+                    "link": "http://facultybio.haas.berkeley.edu/faculty-list/hsu-ming",
+                "affiliated": "no"
+                }, {
+                "name": "Richard Ivry",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/richard-ivry",
+                "affiliated": "yes"
+                }, {
+                "name": "William Jagust",
+                "size": 6714,
+                "link": "http://sph.berkeley.edu/william-jagust",
+                "affiliated": "no"
+                }, {
+                "name": "Stanley Klein",
+                "size": 6714,
+                "link": "http://vision.berkeley.edu/?p=413",
+                "affiliated": "no"
+                }, {
+                "name": "Robert Knight",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/robert-thomas-knight",
+                "affiliated": "yes"
+                }, {
+                "name": "Dennis Levi",
+                "size": 6714,
+                "link": "http://vision.berkeley.edu/?p=417",
+                "affiliated": "no"
+                }, {
+                "name": "Arthur Shimamura",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/arthur-p-shimamura",
+                "affiliated": "yes"
+                }, {
+                "name": "Michael Silver",
+                "size": 6714,
+                "link": "http://vision.berkeley.edu/?p=441",
+                "affiliated": "no"
+                }, {
+                "name": "Frederic Theunissen",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/frederic-theunissen",
+                "affiliated": "no"
+                }, {
+                        "name": "Matthew Walker",
+                        "size": 6714,
+                        "link": "http://psychology.berkeley.edu/people/matthew-p-walker",
+                "affiliated": "no"
+                }, {
+                "name": "David Whitney",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/david-whitney",
+                "affiliated": "yes"
+                }, {
+                "name": "Anne Collins",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/anne-collins",
+                "affiliated": "no"
+                },{
+                "name": "Linda Wilbrecht",
+                "size": 6714,
+                "link": "http://psychology.berkeley.edu/people/linda-wilbrecht",
+                "affiliated": "no"
+            }]
+        }]
+    }, {
+        "name": "Psychology",
+        "children": [{
+                "name": "Clinical Psychology", 
+                "children": [{
+                    "name": "Sonia Bishop",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/sonia-bishop",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Michael Cole",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/michael-cole",
+                "affiliated": "no"
+                    }, {
+                    "name": "Aaron Fisher",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/aaron-fisher",
+                "affiliated": "no"
+                    }, {
+                    "name": "Allison Harvey",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/allison-harvey",
+                "affiliated": "no"
+                    }, {
+                    "name": "Stephen Hinshaw",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/stephen-hinshaw",
+                "affiliated": "no"
+                    }, {
+                    "name": "Sheri Johnson",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/sheri-johnson",
+                "affiliated": "no"
+                    }, {
+                    "name": "Ann Kring",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/ann-m-kring",
+                "affiliated": "no"
+                    }, {
+                    "name": "Robert Levenson",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/robert-w-levenson",
+                "affiliated": "no"
+                    }, {
+                    "name": "Laura Mason",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/laura-b-mason",
+                "affiliated": "no"
+                    }, {
+                    "name": "Qing Zhou",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/qing-zhou",
+                "affiliated": "no"
+                    }]
+                }, {
+                "name": "Cognitive Psychology", 
+                "children": [{
+                    "name": "Joseph Campos",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/joseph-j-campos",
+                "affiliated": "no"
+                    }, {
+                    "name": "Alison Gopnik",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/alison-gopnik",
+                "affiliated": "yes"
+                    },{
+                    "name": "Tom Griffiths",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/tom-griffiths",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Allison Harvey",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/allison-harvey",
+                "affiliated": "no"
+                    }, {
+                    "name": "Richard Ivry",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/richard-ivry",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Lucia Jacobs",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/lucia-f-jacobs",
+                "affiliated": "yes"
+                    }, {
+                    "name": "John Kihlstrom",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/john-f-kihlstrom",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Tania Lombrozo",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/tania-lombrozo",
+                "affiliated": "yes"
+                    }, {
+                    "name": "William Prinzmetal",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/william-prinzmetal",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Mahesh Srinivasan",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/mahesh-srinivasan",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Frederic Theunissen",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/frederic-theunissen",
+                "affiliated": "no"
+                    }, {
+                    "name": "Linda Wilbrecht",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/linda-wilbrecht",
+                "affiliated": "no"
+                    }, {
+                    "name": "Anne Collins",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/anne-collins",
+                    "affiliated": "no"
+                }, {
+                    "name": "Fei Xu",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/fei-xu",
+                "affiliated": "yes"
+                    }]
+                }, {
+                "name": "Developmental Psychology", 
+                "children": [{
+                    "name": "Silvia Bunge",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/silvia-bunge",
+                "affiliated": "no"
+                    }, {
+                    "name": "Joseph Campos",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/joseph-j-campos",
+                "affiliated": "no"
+                    }, {
+                    "name": "Alison Gopnik",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/alison-gopnik",
+                "affiliated": "yes"
+                    },{
+                    "name": "Erik Hesse",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/tom-griffiths",
+                "affiliated": "no"
+                    }, {
+                    "name": "Stephen Hinshaw",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/stephen-hinshaw",
+                "affiliated": "no"
+                    }, {
+                    "name": "Lucia Jacobs",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/lucia-f-jacobs",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Dacher Keltner",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/dacher-keltner",
+                "affiliated": "no"
+                    }, {
+                    "name": "Lucia Jacobs",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/lucia-f-jacobs"
+                    }, {
+                    "name": "Robert Knight",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/robert-thomas-knight",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Robert Levenson",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/robert-w-levenson",
+                "affiliated": "no"
+                    }, {
+                    "name": "Tania Lombrozo",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/tania-lombrozo",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Mary Main",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/mary-main",
+                "affiliated": "no"
+                    }, {
+                    "name": "Tania Lombrozo",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/tania-lombrozo",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Mahesh Srinivasan",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/mahesh-srinivasan",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Frederic Theunissen",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/frederic-theunissen",
+                "affiliated": "no"
+                    }, {
+                    "name": "Fei Xu",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/fei-xu",
+                "affiliated": "yes"
+                }]
+        }]
+    }, {
+        "name": "Computer Science",
+        "children": [{
+                "name": "Computational Neuroscience/Modeling", 
+                "children": [{
+                    "name": "Martin Banks",
+                    "size": 6714,
+                    "link": "http://vision.berkeley.edu/?p=369",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Jose Carmena",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/carmena.html",
+                "affiliated": "yes"
+                    },{
+                    "name": "Yang Dan",
+                    "size": 6714,
+                    "link": "http://mcb.berkeley.edu/faculty/all/dany",
+                "affiliated": "no"
+                    }, {
+                        "name": "Michael DeWeese",
+                        "size": 6714,
+                        "link": "http://physics.berkeley.edu/people/faculty/michael-deweese",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Jack Gallant",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/jack-l-gallant",
+                "affiliated": "no"
+                    }, {
+                    "name": "Tom Griffiths",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/tom-griffiths",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Bruno Olshausen",
+                    "size": 6714,
+                    "link": "http://vision.berkeley.edu/?p=436",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Fritz Sommer",
+                    "size": 6714,
+                    "link": "http://redwood.berkeley.edu/wiki/Fritz_Sommer",
+                "affiliated": "no"
+                    }, {
+                    "name": "Anne Collins",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/anne-collins",
+                    "affiliated": "no"
+                    },{
+                    "name": "Frederic Theunissen",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/frederic-theunissen",
+                "affiliated": "no"
+                    }]
+            }, {
+                "name": "AI/Machine Learning", 
+                "children": [{
+                    "name": "Pieter Abbeel",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/abbeel.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Ruzena Bajcsy",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/bajcsy.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "David Bamman",
+                    "size": 6714,
+                    "link": "http://www.ischool.berkeley.edu/people/faculty/davidbamman",
+                "affiliated": "no"
+                    }, {
+                    "name": "Peter Bartlett",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/bartlett.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "John Canny",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/canny.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Trevor Darrell",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/darrell.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Anca Dragan",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/anca.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Alexei Efros",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/efros.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Ken Goldberg",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/goldberg.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Marti Hearst",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/hearst.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Michael Jordan",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/jordan.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Daniel Klein",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/klein.html",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Jitendra Malik",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/malik.html",
+                "affiliated": "yes"
+                    }, {
+                        "name": "Srini Narayanan",
+                        "size": 6714,
+                        "link": "http://www1.icsi.berkeley.edu/~snarayan/",
+                        "affiliated": "yes"
+                    
+                    }, {
+                    "name": "Lior Pachter",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/pachter.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Benjamin Recht",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/brecht.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Stuart Russell",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/russell.html",
+                "affiliated": "yes"
+                    }]
+            }, {
+                "name": "HCI/Design", 
+                "children": [{
+                    "name": "Maneesh Agrawala",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/agrawala.html",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Ruzena Bajcsy",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/bajcsy.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Brian Barsky",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/barsky.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "John Canny",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/canny.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Anca Dragan",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/anca.html",
+                "affiliated": "no"
+                    },{
+                    "name": "Bjorn Hartman",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/hartmann.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Marti Hearst",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/hearst.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Jitendra Malik",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/malik.html",
+                "affiliated": "yes"
+                    }, {
+                    "name": "James O'Brien",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/obrien.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Tapan Parikh",
+                    "size": 6714,
+                    "link": "http://people.ischool.berkeley.edu/~parikh/",
+                "affiliated": "no"
+                    }, {
+                    "name": "Eric Paulos",
+                    "size": 6714,
+                    "link": "http://www.eecs.berkeley.edu/Faculty/Homepages/paulos.html",
+                "affiliated": "no"
+                    }, {
+                    "name": "Kimiko Ryokai",
+                    "size": 6714,
+                    "link": "http://www.ischool.berkeley.edu/people/faculty/kimikoryokai",
+                "affiliated": "no"
+                    }]
+                }]
+        }, {
+        "name": "Linguistics",
+        "children": [{
+                    "name": "Susanne Gahl",
+                    "size": 6714,
+                    "link": "http://linguistics.berkeley.edu/person/147",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Keith Johnson",
+                    "size": 6714,
+                    "link": "http://linguistics.berkeley.edu/person/20",
+                "affiliated": "no"
+                    },{
+                    "name": "George Lakoff",
+                    "size": 6714,
+                    "link": "http://linguistics.berkeley.edu/person/21",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Terry Regier",
+                    "size": 6714,
+                    "link": "http://linguistics.berkeley.edu/person/221",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Eve Sweetser",
+                    "size": 6714,
+                    "link": "http://linguistics.berkeley.edu/person/30",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Richard Rhodes",
+                    "size": 6714,
+                    "link": "http://linguistics.berkeley.edu/person/29",
+                "affiliated": "yes"
+                    }]
+        }, {
+        "name": "Philosophy",
+        "children": [{
+                    "name": "Lara Buchak",
+                    "size": 6714,
+                    "link": "http://philosophy.berkeley.edu/people/detail/208",
+                "affiliated": "no"
+                    }, {
+                    "name": "John Campbell",
+                    "size": 6714,
+                    "link": "http://philosophy.berkeley.edu/people/detail/10",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Alison Gopnik",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/alison-gopnik",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Geoffrey Lee",
+                    "size": 6714,
+                    "link": "http://philosophy.berkeley.edu/people/detail/241",
+                "affiliated": "no"
+                    },{
+                    "name": "Tania Lombrozo",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/tania-lombrozo",
+                "affiliated": "yes"
+                    }, {
+                    "name": "John MacFarlane",
+                    "size": 6714,
+                    "link": "http://philosophy.berkeley.edu/people/detail/1",
+                "affiliated": "no"
+                    }, {
+                    "name": "Michael Martin",
+                    "size": 6714,
+                    "link": "http://philosophy.berkeley.edu/people/detail/32",
+                "affiliated": "no"
+                    }, {
+                    "name": "Alva Noë",
+                    "size": 6714,
+                    "link": "http://philosophy.berkeley.edu/people/detail/16",
+                "affiliated": "yes"
+                    }, {
+                    "name": "John Searle",
+                    "size": 6714,
+                    "link": "http://philosophy.berkeley.edu/people/detail/18",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Barry Stroud",
+                    "size": 6714,
+                    "link": "http://philosophy.berkeley.edu/people/detail/20",
+                "affiliated": "no"
+                    }, {
+                    "name": "Seth Yalcin",
+                    "size": 6714,
+                    "link": "http://philosophy.berkeley.edu/people/detail/240",
+                "affiliated": "no"
+                    }]
+            }, {
+        "name": "Society, Culture, & Cognition",
+        "children": [{
+                "name": "Social/Personality Psychology", 
+                "children": [{
+                    "name": "Ozlem Ayduk",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/ozlem-ayduk",
+                "affiliated": "no"
+                    }, {
+                    "name": "Serena Chen",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/serena-chen",
+                "affiliated": "no"
+                    }, {
+                    "name": "Coye Chesire",
+                    "size": 6714,
+                    "link": "http://www.ischool.berkeley.edu/people/faculty/coyecheshire",
+                "affiliated": "no"
+                    }, {
+                    "name": "Oliver John",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/oliver-p-john",
+                "affiliated": "no"
+                    }, {
+                    "name": "Dacher Keltner",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/dacher-keltner",
+                "affiliated": "no"
+                    }, {
+                    "name": "John Kihlstrom",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/john-f-kihlstrom",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Robert Levenson",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/robert-w-levenson",
+                "affiliated": "no"
+                    }, {
+                    "name": "Iris Mauss",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/iris-mauss",
+                "affiliated": "no"
+                    }, {
+                    "name": "Rodolfo Mendoza-Denton",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/rodolfo-mendoza-denton",
+                "affiliated": "no"
+                    }, {
+                    "name": "Frank Sulloway",
+                    "size": 6714,
+                    "link": "http://psychology.berkeley.edu/people/frank-j-sulloway",
+                "affiliated": "no"
+                    }]
+            }, {
+                "name": "Behavioral Economics", 
+                "children": [{
+                    "name": "Clayton Critcher",
+                    "size": 6714,
+                    "link": "http://facultybio.haas.berkeley.edu/faculty-list/critcher-clayton",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Ming Hsu",
+                    "size": 6714,
+                    "link": "http://facultybio.haas.berkeley.edu/faculty-list/hsu-ming",
+                "affiliated": "no"
+                    }, {
+                    "name": "Don Moore",
+                    "size": 6714,
+                    "link": "http://facultybio.haas.berkeley.edu/faculty-list/moore-don",
+                "affiliated": "no"
+                    }, {
+                    "name": "Leif Nelson",
+                    "size": 6714,
+                    "link": "http://facultybio.haas.berkeley.edu/faculty-list/nelson-leif",
+                "affiliated": "no"
+                    }]
+                }, {
+                "name": "Education", 
+                "children": [{
+                    "name": "Dor Abrahamson",
+                    "size": 6714,
+                    "link": "http://gse.berkeley.edu/people/dor-abrahamson",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Michael Ranney",
+                    "size": 6714,
+                    "link": "http://gse.berkeley.edu/people/michael-ranney",
+                "affiliated": "yes"
+                    },{
+                    "name": "Geoffrey Saxe",
+                    "size": 6714,
+                    "link": "http://gse.berkeley.edu/people/geoffrey-b-saxe",
+                "affiliated": "yes"
+                    }, {
+                    "name": "Alan Schoenfeld",
+                    "size": 6714,
+                    "link": "http://gse.berkeley.edu/people/alan-h-schoenfeld",
+                "affiliated": "yes"
+                    }]
+                }, {
+                "name": "Miscellaneous", 
+                "children": [{
+                    "name": "William Hanks",
+                    "size": 6714,
+                    "link": "http://anthropology.berkeley.edu/people/william-f-hanks",
+                    "affiliated": "yes"
+                    }, {
+                    "name": "Terrence Deacon",
+                    "size": 6714,
+                    "link": "http://anthropology.berkeley.edu/people/terrence-w-deacon",
+                    "affiliated": "yes"
+                }, {
+                    "name": "Mel Chen",
+                    "size": 6714,
+                    "link": "http://womensstudies.berkeley.edu/about/profile/faculty/22",
+                    "affiliated": "yes"
+                }, {
+                    "name": "Robert Glushko",
+                    "size": 6714,
+                    "link": "http://people.ischool.berkeley.edu/~glushko/",
+                    "affiliated": "yes"
+                }, {
+                    "name": "Sam Mchombo",
+                    "size": 6714,
+                    "link": "http://africam.berkeley.edu/person/sam-a.-mchombo",
+                    "affiliated": "yes"
+                }]
+            }]
+        }]
+}
