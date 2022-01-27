@@ -450,6 +450,15 @@ img.ocf-tag {
   width: 84px;
 }
 
+div.people-square3 {
+  height: 100%;
+  width: 100%;
+}
+div.people-square4 {
+  height: 100%;
+  width: 100%;
+}
+
 /* INVOLVEMENT STUFF */
 
 .get-involved h3 {
@@ -2049,23 +2058,52 @@ width: 50%;
 
 .people-row1 {
  /* background-color: #FFF3F5; */
-  padding-top: 4%;
+  padding-top: 2%;
   padding-bottom: 3%;
+  margin-right: 4%;
+  margin-left: 4%;
 }
+
+.people-row1 p {
+  font-size: 0.9em;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
 .people-row2 {
  /* background-color: #FBF6EB;*/
-    padding-top: 4%;
+    padding-top: 2%;
   padding-bottom: 3%;
 }
+
+.people-row2 p {
+  font-size: 0.9em;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
 .people-row3 {
   /*background-color: #EDF4F3;*/
-    padding-top: 4%;
+    padding-top: 2%;
   padding-bottom: 3%;
 }
+
+.people-row3 p {
+  font-size: 0.9em;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
 .people-row4 {
   /*background-color: #F3F9FF;*/
-    padding-top: 4%;
+    padding-top: 2%;
   padding-bottom: 3%;
+}
+
+.people-row4 p {
+  font-size: 0.9em;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 .people-row-column3 {
