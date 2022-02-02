@@ -1,5 +1,4 @@
 
-/* INDEX.HTML */
 body {
   color: #ECF1F5;
   background-color: #ECF1F5;
@@ -853,6 +852,16 @@ p {
 
 /* INDEX.HTML */
 
+#index-zoomlink {
+  margin: 0;
+  color: white;
+  text-decoration: underline;
+}
+
+#index-zoomlink:hover {
+  color: blue;
+}
+
 .indexbtn {
   color: #8B8BD0;
   cursor: pointer;
@@ -1407,6 +1416,10 @@ p {
 
 
 /* EVENTS.HTML */
+
+#event-zoomlink {
+  margin: 0;
+}
 
 /*.mlinkcome {
   cursor: pointer;
