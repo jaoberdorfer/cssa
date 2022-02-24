@@ -15,6 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Rosario:wght@400;500&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href='https://css.gg/arrow-left.css' rel='stylesheet'>
 
 
   
@@ -73,28 +74,47 @@
     <div class="page-top" style="background-color: #171756">
 
       <h1 id="title" style="color: #E6CCA5">CCSC 2022</h1> 
-      <a style="color: #E6CCA5" href="../conference.html"> [back to conference page <<<] </a>
+      <a style="color: #E6CCA5" href="../conference.html"> 
+        <svg
+          class="back-arrow"
+          width="34"
+          height="34"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.3284 11.0001V13.0001L7.50011 13.0001L10.7426 16.2426L9.32842 17.6568L3.67157 12L9.32842 6.34314L10.7426 7.75735L7.49988 11.0001L20.3284 11.0001Z"
+            fill="currentColor"
+          />
+        </svg> 
+
+      </a> 
       <!-- <h2> [ccsc woot] </h2>   -->
+
     </div>
 
 
 
     <div class="placeholder">
-      <img class="conference-page-banner" src="../images/conference_imgs/ccsc22-ban.png">
+      <img id="ccsc22-page-banner" class="conference-page-banner" src="../images/conference_imgs/ccsc22-banner.png">
     </div>
 
     <div class="conf-info">
-      <h3 class="conf-info-txt">CCSC 21 was focused on the brain's regenerative and resilient capabilities, with speakers ranging from all fields and research from all fields as well!</h3> 
+      <h3 class="conf-info-txt" id="ccsc22-info-text">Get ready for the 13th Annual California Cognitive Science Conference! This year's theme is “Construing Reality: The Distortions of the Mind."" Our speakers will explore the realm of perception, navigating between actuality and deception. Members of CSSA’s internal team have been planning this conference throughout the past year, and we're so excited to officially announce registration is open! The Conference will be on April 16th, 2022: register at <a id="ccsc22-eventbrite" href="https://ccsc2022.eventbrite.com/">https://ccsc2022.eventbrite.com/</a>. We are offering FREE tickets for students and faculties, and an early bird special of $5.00 for general admission until March 31st.</h3> 
     </div>
+
+
+    <br>
+     <div>
+      <h2 class="ccsc-subtitles">Poster Presenter abstract submission TBD</h2>
+
+    </div>
+
 
     <div>
-      <h2>Schedule</h2>
-      <img class="conf-schedule" src="../images/conference_imgs/ccsc21-sched.png">
-    </div>
+      <h2 class="ccsc-subtitles">Schedule and Speakers TBD</h2>
 
-    <div class="conf-people">
-      <h2>People</h2>
-      
     </div>
 
 
@@ -113,7 +133,7 @@
     </div>
       <p class="copyright">© 2021 Berkeley CSSA</p>
       <!-- <p class="ocf-tag" >OCF TAG</p> -->
-      <img src="images/ocf-tag.png" class="ocf-tag">
+      <img src="../images/ocf-tag.png" class="ocf-tag">
       <br>
       <br>
       <p class="ocfterms">We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.

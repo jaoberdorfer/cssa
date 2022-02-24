@@ -1947,6 +1947,11 @@ width: 50%;
   font-size: 1.3em;
 }
 
+#current-conf-banner {
+  border: 2px solid white;
+  filter: drop-shadow(4px 4px 4px white);
+}
+
 .conference-banner {
   /*height: 60vh;*/
   /*width: 60%;*/
@@ -2075,6 +2080,49 @@ width: 50%;
   color: #E6CCA5;
   font-size: 1.3em;
 }
+
+#ccsc22-eventbrite {
+  margin: 0;
+  padding: 0;
+}
+
+#ccsc22-info-text {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+#ccsc22-page-banner {
+  height: 70%;
+  width: 70%;
+}
+
+#back-arrow {
+
+}
+
+/*
+.gg-arrow-left::after,
+.gg-arrow-left::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 3px
+}
+.gg-arrow-left::after {
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    bottom: 7px
+}
+.gg-arrow-left::before {
+    width: 16px;
+    height: 2px;
+    bottom: 10px;
+    background: currentColor
+} */
 
 
 /* PEOPLE.HTML */
