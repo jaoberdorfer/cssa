@@ -1,4 +1,5 @@
 RewriteEngine on 
 RewriteRule ^(.*)$ https://cssa.berkeley.edu/conference.html [R=301,L]
 
+Options -Indexes
 AllowOverride None
