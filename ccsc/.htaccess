@@ -1,3 +1,5 @@
 #RewriteEngine on 
 #RewriteRule ^(.*)$ https://cssa.berkeley.edu/conference.html [R=301,L]
 
+Redirect 301 / https://cssa.berkeley.edu/conference.html
+
