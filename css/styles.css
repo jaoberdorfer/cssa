@@ -1074,6 +1074,18 @@ p {
   width: 20%;
 }
 
+
+#index-announcement-blurb {
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+  line-height: 2em;
+}
+
+#index-announcement-link {
+  margin: 0;
+}
+
 /* ABOUT.HTML */
 
 #about-wrap {
