@@ -1982,6 +1982,12 @@ width: 50%;
   color: #E6CCA5;
 }
 
+.conf-info-txt2 {
+  margin-right: 16%;
+  margin-left: 16%;
+  color: white;
+}
+
 .conf-links a:hover {
   text-decoration: underline;
   color: white;
@@ -2050,6 +2056,16 @@ width: 50%;
 
 .conf-faq li p{
   font-size: 0.9em;
+  color: white;
+}
+
+#poster-presenter-link {
+  margin: 0;
+  color: pink;
+  text-decoration: underline;
+}
+
+#poster-presenter-link:hover{
   color: white;
 }
 
