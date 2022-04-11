@@ -2383,6 +2383,31 @@ width: 50%;
 /*HONORS THESIS ARCHIVE */
 
 
+/* CCSC 22 */
+
+.speaker-img2 {
+  height: 300px;
+  width: 240px;
+}
+
+.speaker-bio {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.speaker-bio p {
+  color: white;
+}
+
+.speaker-name {
+  font-size: 2em;
+}
+
+.speaker h3 {
+  color: #E6CCA5;
+}
+
+
 
 
 
