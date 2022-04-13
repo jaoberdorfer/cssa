@@ -2385,6 +2385,14 @@ width: 50%;
 
 /* CCSC 22 */
 
+.ccsc22-section {
+  margin-bottom: 4%;
+}
+
+.speaker {
+  margin-bottom: 4%;
+}
+
 .speaker-img2 {
   height: 300px;
   width: 240px;
@@ -2405,6 +2413,12 @@ width: 50%;
 
 .speaker h3 {
   color: #E6CCA5;
+}
+
+#ccsc22-sched-img {
+  height: 50%;
+  width: 50%;
+  margin-bottom: 2%;
 }
 
 
