@@ -1952,7 +1952,7 @@ width: 50%;
 }
 
 #ccsc22-announce {
-  color: white;
+  color: #E6CCA5;;
   margin-right: 14%;
   margin-left: 14%;
   margin-top: 4%;
@@ -1997,7 +1997,7 @@ width: 50%;
 .conf-info-txt2 {
   margin-right: 16%;
   margin-left: 16%;
-  color: white;
+  color: #E6CCA5;;
 }
 
 .conf-links a:hover {
@@ -2094,7 +2094,7 @@ width: 50%;
 
 .speaker-type {
   font-size: 1.6em!important;
-  color: #E6CCA5;;
+  color: #E6CCA5;
 }
 
 .speaker-bios {
@@ -2405,7 +2405,7 @@ width: 50%;
 }
 
 .speaker-bio p {
-  color: white;
+  color: #E6CCA5;;
 }
 
 .speaker-name {
@@ -2422,6 +2422,24 @@ width: 50%;
   margin-bottom: 2%;
 }
 
+/* CCSC22 POSTER */
+
+.ccsc-presenter {
+  height: auto;
+  width: 40%;
+}
+
+.ccsc-poster {
+  width: 90%;
+
+}
+
+.ccsc-presenter-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
 
 
 
