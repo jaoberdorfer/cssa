@@ -397,6 +397,10 @@ img.conference-page-banner {
   width: auto;
 }
 
+div.ccsc-presenter {
+
+}
+
 /* FOOTER STUFF */
 
 .footer-link {
@@ -2425,7 +2429,7 @@ width: 50%;
 /* CCSC22 POSTER */
 
 .ccsc-presenter {
-  height: auto;
+  /*height: auto;*/
   width: 40%;
 }
 
@@ -2439,7 +2443,14 @@ width: 50%;
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
+  margin-bottom: 4%;
 }
+
+.ccsc-presenter h2 {
+  color: #E6CCA5;
+}
+
+
 
 
 
